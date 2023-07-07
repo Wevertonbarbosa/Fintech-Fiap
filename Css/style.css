@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  background-color: #000C44;
+}
+.avatar{
+  border:2px solid #706F6F;
+  border-radius: 29px;
+  background-color: #05145A;
+}
+
+.investimento{
+  background-color: #E3E3E3;
+}
+
+.cartoes{
+  background-color: #E3E3E3;
+}
+
+.trasacao{
+  background-color: #000C44;
+  box-shadow: -1px 8px 5px;
+}
+
+.perfil{
+  height: 3vh;
+}
+
+.salario{
+  filter: blur(2px);
+}

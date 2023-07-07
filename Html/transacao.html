@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WellBank</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/letra-w.png" type="image/x-icon">
+  <link rel="stylesheet" href="../Css/transacao.css">
+</head>
+
+<body>
+  <header>
+    <div class="container d-flex pt-3  align-items-center column-gap-5">
+      <a href="../index.html">
+        <span>
+          <img src="../img/Arrow 1.png" alt="seta volta">
+        </span>
+      </a>
+      <h2 class="text-center m-0 p-3 position-absolute top-0 start-50 translate-middle-x">Extratos</h2>
+    </div>
+  </header>
+  <main>
+    <section class="container py-4 pb-0">
+      <article class="py-2 saldo rounded sombra">
+        <div class="container py-0 d-flex justify-content-between align-items-center">
+          <p class="text-start m-0">Saldo</p>
+          <span>
+            <img class="img-seta" src="../img/eye_120221 1.png" alt="seta direita">
+          </span>
+        </div>
+        
+        <div class="container pt-0 d-flex justify-content-start column-gap-5 align-items-center">
+          <p class="m-0 text-start salario">R$ 10.500,50</p>
+        </div>
+      
+      </article>
+    </section>
+
+    <section class="py-3">
+
+      <article class="container">
+        <div>
+          <nav class="saldo rounded-top tab-cabecalho">
+            <div class="nav nav-tabs d-flex justify-content-between px-1" id="nav-tab" role="tablist">
+
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Item</button>
+
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false" disabled>Valor R$</button>
+
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" disabled aria-controls="nav-contact" aria-selected="false">Info</button>
+            </div>
+          </nav>
+          <div class="tab-content saldo" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+              tabindex="0">
+              <div class="d-flex align-items-center">
+                <div class="container pt-4 pb-2 tab-cabecalho">
+                  <h6 class="m-0">Restaurante A</h6>
+                  <p class="m-0" style="color: #888080; font-size: smaller;">24/04/2023</p>
+                  <p class="m-0" style="color: #888080; font-size: smaller;">Á vista</p>
+                  <p class="m-0 rounded text-white" id="paragrafo-final">Pagamento Realizado</p>
+                </div>
+                <span>
+                  <img src="../img/right-arrow_icon-icons 1.png" alt="seta direita">
+                </span>
+              </div>
+            </div>
+            <div class="tab-content saldo" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                tabindex="0">
+                <div class="d-flex align-items-center">
+                  <div class="container pt-4 pb-2 tab-cabecalho">
+                    <h6 class="m-0">TV Led 1/4</h6>
+                    <p class="m-0" style="color: #888080; font-size: smaller;">24/04/2023</p>
+                    <p class="m-0" style="color: #888080; font-size: smaller;">Parcelado</p>
+                    <p class="m-0 rounded text-white" id="parcelado">Pagamento Parcelado</p>
+                  </div>
+                  <span>
+                    <img src="../img/right-arrow_icon-icons 1.png" alt="seta direita">
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content saldo" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+              tabindex="0">
+              <div class="d-flex align-items-center">
+                <div class="container pt-4 pb-2">
+                  <h6 class="m-0">Conta Luz</h6>
+                  <p class="m-0" style="color: #888080; font-size: smaller;">24/04/2023</p>
+                  <p class="m-0 rounded text-white" id="falta">Pagamento Expirado</p>
+                </div>
+                <span>
+                  <img src="../img/right-arrow_icon-icons 1.png" alt="seta direita">
+                </span>
+              </div>
+            </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

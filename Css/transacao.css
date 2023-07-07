@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  color: #2B41A6;
+}
+h6{
+  color:#1754C9;
+  font-weight: bold;
+}
+
+.sombra {
+  box-shadow: inset 0px 3px 11px -3px;
+}
+
+.saldo{
+  background-color: #E3E3E3;
+}
+
+.salario{
+  filter: blur(2px);
+}
+
+.tab-cabecalho{
+  border-bottom: 1px solid #C8C7C7;
+}
+
+#paragrafo-final{
+  width: fit-content;
+  background-color: #49CE3D;
+  font-size: smaller;
+  padding: .2vw 2vw;
+}
+#parcelado{
+  background-color: #DDB422;
+  font-size: smaller;
+  padding: .2vw 2vw;
+  width: fit-content;
+}
+
+#falta{
+  background-color: #DD2222;
+  font-size: smaller;
+  padding: .2vw 2vw;
+  width: fit-content;
+}
+
+.nav-link.active{
+  border-bottom: 3px solid #0452E9 !important;
+  background-color: #E3E3E3 !important;
+}
